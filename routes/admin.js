@@ -14,19 +14,19 @@ const { adminModel } = require("../db");
         })
     })
 
-    adminRouter.post("/course", function(res, req) {
+    adminRouter.post("/", function(res, req) {
         res.json({
             message: " Course created"
         })
     })
 
-    adminRouter.put("/course", function(req, res) {
+    adminRouter.put("/", function(req, res) {
         res.json({
             message: "Signup endpoint"
         })
     })
 
-    adminRouter.get("/course/bulk", function(req, res) {
+    adminRouter.get("/bulk", function(req, res) {
         res.json({
             message: "Signup endpoint"
         })
