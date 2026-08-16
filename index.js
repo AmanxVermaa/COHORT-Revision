@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const { userRouter } = require("./routes/user");
 const { adminRouter } = require("./routes/admin");
 const { courseRouter } = require("./routes/course");
-const app = express();     // creates an instance of the http server or app
+const app = express();     // creates an instance of the http server or an app
 
 // createUserRoutes(app);
 // createCourseRoutes(app);
